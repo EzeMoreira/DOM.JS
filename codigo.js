@@ -19,3 +19,12 @@ document.write(elementos.length); // 3 en total los elementos
 const losNombres = document.getElementsByName("nombre");
 
 document.write(losNombres); // Muestra los inputs.
+
+
+document.write("<br>", "<br>");
+
+//              *** Get Elements By Tag Name
+
+const divs = document.getElementsByTagName("div");
+
+document.write(divs);
