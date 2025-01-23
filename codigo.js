@@ -22,6 +22,7 @@ document.write(losNombres); // Muestra los inputs.
 
 
 document.write("<br>", "<br>");
+document.write("<br>", "<br>");
 
 //              *** Get Elements By Tag Name
 
