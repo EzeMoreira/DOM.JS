@@ -11,4 +11,11 @@ const elementos = document.getElementsByClassName("item");
 
 document.write(elementos); // Muestra los divs
 document.write(elementos[0]); // Primer item encontrado: los class en este caso
-document.write(elementos.length);
+document.write(elementos.length); // 3 en total los elementos
+
+
+//              *** Get Elements By Name
+
+const losNombres = document.getElementsByName("nombre");
+
+document.write(losNombres); // Muestra los inputs.
