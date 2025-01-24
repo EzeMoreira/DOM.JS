@@ -27,3 +27,30 @@ document.write(losNombres); // Muestra los inputs.
 const divs = document.getElementsByTagName("div");
 
 document.write(divs);
+
+
+
+
+                //     A partir de esta linea comienzan los ejemplos para querySelector()
+
+const page = document.querySelector("#page");
+const info = document.querySelector(".main .info");
+
+//En este primer ejemplo al metodo querySelector indicamos por parametro un selector, 
+// al tratarse de un id utilizamos # para capturarlo.
+
+//En el segundo recuperamos el primer elemento con clase info que este dentro de otro clase 
+//con clase main.
+
+
+
+                //      querySelectorAll()
+
+//Obtener todos los elementos con clase "info"
+const infos = document.querySelectorAll(".info");
+
+//Obtener todos los elementos con atributo "nombre"
+const nicksNames = document.querySelectorAll('[nombre="nickNames]');
+
+//Obtener todos los elementos div de la pagina HTML
+const divS = document.querySelectorAll("div");
