@@ -1,8 +1,13 @@
 body{
-    font-family:'Courier New', Courier, monospace;
+    font-family: monospace;
     text-align: center;
     background: rgb(87, 87, 87);
     color: aliceblue;
+    font-size: medium;
+}
+
+div {   
+    background: rgb(100, 100, 100);
 }
 
 div:hover{
@@ -11,8 +16,67 @@ div:hover{
     left: 0;
 }
 
+h2 {   
+    background: rgb(100, 100, 100);
+}
+
 h2:hover{
     border-bottom: 2px solid gold;
     bottom: 4px;
     left: 0;
+}
+
+#pagina:hover {
+    font-size: large;
+    background: black;
+}
+
+.item:hover {
+    font-size: large;
+    background-color: black;
+    color: gold;
+    border-bottom: 2px solid gold;
+}
+
+form {
+    font-family: monospace;
+    font-size: medium;
+    background: rgb(120, 120, 120);
+}
+
+form:hover {
+    background: rgb(6, 85, 6);
+    margin: 5px;
+    padding: 5px;
+    border: 2px dashed orange;
+}
+
+input:hover {
+    font-family: monospace;
+    font-size: larger;
+    background: orange;
+    color: aliceblue;
+    border: 2px solid orangered;
+    text-decoration: none;
+    margin: 5px;
+    padding: 5px;
+}
+
+.caja-uno:hover, .caja-dos:hover, .caja-tres:hover, .caja-cuatro:hover, .caja-cinco:hover {
+    font-size: large;
+    background: black;
+    color: white;
+    border-bottom: 2px solid gold;
+}
+
+li {
+    list-style: none;
+}
+
+li:hover {
+    font-size: large;
+    background: gold;
+    color: black;
+    margin: 10px 10px 10px;
+    padding: 2px;
 }
