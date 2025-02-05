@@ -17,3 +17,4 @@ a.previousElementSibling;
 // <a> que era donde nos encontrabamos.
 
 a.nextElementSibling; // Aqui devuelve null porque luego de a no hay mas elementos.
+// Ejemplos que se pueden observar a traves de la consola.
