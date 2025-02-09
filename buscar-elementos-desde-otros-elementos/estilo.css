@@ -1,0 +1,40 @@
+body{
+    font-family: monospace;
+    background: #333;
+    color: white;
+    text-align: center;
+    margin-top: 100px;
+}
+
+h2, h3{
+    display: inline-block;
+    border-bottom: 2px solid yellow;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px,
+    rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px,
+    rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    background: rgb(30, 30, 30);
+    opacity: 0.5;
+}
+
+a:hover{
+    opacity: 1;
+    background-color: black;
+    color: yellow;
+    text-transform: uppercase;
+}
+
+svg{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 60px 60px;
+    background: rgb(36, 36, 36);
+    opacity: 0.5;
+}
+
+svg:hover{
+    opacity: 1;
+    background: black;
+}
