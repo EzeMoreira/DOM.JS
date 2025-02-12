@@ -9,3 +9,8 @@ const app = document.querySelector("#aplicacion");
 app.childNodes; // Devuelve [text, div.header, text, p, text, a, text]
 app.firstChild.textContent; // Devuelve " "
 app.lastChild.textContent;  // Devuelve " "
+
+const a = app.querySelector("a");
+
+a.previousSibling;  // Devuelve text
+a.nextSibling;      // Devuelve text
