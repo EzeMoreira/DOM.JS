@@ -17,9 +17,9 @@ body {
     text-align: center;
     justify-content: center;
     border-top: 1px solid gold;
-    border-bottom: 2px dashed white;
+    border-bottom: 2px dotted white;
     border-left: 1px solid gold;
-    border-right: 2px dashed white;
+    border-right: 2px dotted white;
 }
 
 h1{
