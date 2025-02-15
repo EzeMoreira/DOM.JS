@@ -22,6 +22,12 @@ body {
     border-right: 2px dashed rgb(255, 230, 0);;
 }
 
+h1{
+    color: gold;
+    border-bottom: 2px solid white;
+    display: inline-block;
+}
+
 p{
     margin: 25px;
     font-size: larger;
