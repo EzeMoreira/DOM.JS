@@ -1,0 +1,21 @@
+                                    Consultar o modificar contenido del DOM
+
+Una pagina web esta repleta de elementos HTML, es posible que querramos modificar uno de dichos elementos
+para cambiar su contenido de texto por otro. 
+Anteriormente aprendimos a localizar elementos del DOM, ahora lo que vamos a aprender es una serie de 
+propiedades para acceder al contenido de los elementos HTML.
+
+
+                                        Acceder al contenido del DOM
+
+
+Estas son algunas de las propiedades que tenemos para poder acceder al contenido del DOM.
+
+string.nodeName , esta propiedad devuelve el nombre del nodo (DIV) en este caso utilizamos como ejemplo div para debe ir colocado el nombre de la etiqueta
+en mayúsculas, esta propiedad es readOnly (Solo lectura).
+
+string.textContent , esta propiedad nos devuelve y permite cambiar el contenido de texto renderizado (teniendo en cuenta los estilos css que tiene aplicado).
+
+string.innerText , Devuelve (o cambia) el contenido de texto renderizado (tiene en cuenta los estilos CSS).
+
+string.outerText , igual a innerText, pero al reemplazar también reemplaza la etiqueta contenedora.
