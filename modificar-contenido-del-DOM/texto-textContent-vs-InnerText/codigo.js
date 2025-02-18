@@ -16,3 +16,15 @@ const elementos = document.querySelector(".mensaje")
 elementos.textContent;      //Aqui nos devolvera el 1° msj, "mi name is"
 elementos.textContent = "Hola hola"; //Modificamos el contenido de texto
 elementos.textContent;      // "Hola hola" nos devolvera.
+
+
+
+//                  *** innerText ***
+
+const elemen = document.querySelector(".contendor");
+elemen.innerText;
+
+// Lo cual nos devolvera:
+// Hi everyone
+// Mi name is
+// More information
