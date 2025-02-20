@@ -18,5 +18,15 @@ h2:hover {
 }
 
 .detalle{
+    color: black;
+}
+
+.detalle:hover{
     color: red;
+}
+
+a{
+    text-decoration: none;
+    color: orangered;
+    border-bottom: 2px solid black;
 }
