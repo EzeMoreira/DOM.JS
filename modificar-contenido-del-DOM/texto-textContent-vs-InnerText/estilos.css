@@ -6,9 +6,10 @@ body {
 }
 
 h2{
+    color: white;
     margin-top: 100px;
     display: inline-block;
-    border-bottom: 2px grey solid;
+    border-bottom: 2px black solid;
 }
 
 h2:hover {
