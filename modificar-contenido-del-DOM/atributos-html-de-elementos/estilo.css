@@ -2,11 +2,16 @@ body{
     background: #7a97d2;
 }
 
+button{
+    font-size: larger;
+    font-family: cursive;
+    margin: 200px 100px;
+    padding: 25px 15px;
+    background-color: #1d2534;
+    border-color: white;
+    color: white;
+}
 div{
     text-align: center;
     justify-content: center;
-    font-size: larger;
-    font-family:'Times New Roman', Times, serif;
-    margin: 100px 50px;
-    padding: 100px 50px;
 }
