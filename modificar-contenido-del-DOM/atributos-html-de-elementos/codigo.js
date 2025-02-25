@@ -16,3 +16,8 @@ elemento.hasAttribute("disabled"); //Falso, xq disabled no existe.
 
 elemento.getAttributeNames(); //Esto nos va a devolver en un array los atributos o sea id, class y data number
 elemento.getAttribute("id"); //Esto nos devolvera page
+
+
+// Continuamos utilizando el mismo codigo HTML modificando solo el JS
+
+const elementos = document.querySelector("page");
