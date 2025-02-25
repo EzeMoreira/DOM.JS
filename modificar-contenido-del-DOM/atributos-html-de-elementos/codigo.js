@@ -6,3 +6,8 @@ element.className = "data"; //Ademas del estilo, aqui renombramos la clase con e
 
 //Casos como la última linea de codigo donde indicamos className en lugar de class, esto ocurre porque
 //es una palabra reservada para las clases de Javascript, como tambien ocurre con For para bucles.
+
+
+const elemento = document.querySelector("#page")
+
+elemento.hasAttribute(); //Esto nos devolvera true xq tiene 3 elementos
