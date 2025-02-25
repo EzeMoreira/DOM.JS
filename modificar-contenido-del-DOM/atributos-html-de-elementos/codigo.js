@@ -11,3 +11,5 @@ element.className = "data"; //Ademas del estilo, aqui renombramos la clase con e
 const elemento = document.querySelector("#page")
 
 elemento.hasAttribute(); //Esto nos devolvera true xq tiene 3 elementos
+elemento.hasAttribute("data-number"); //Esto es true xq data number si existe
+elemento.hasAttribute("disabled"); //Falso, xq disabled no existe.
