@@ -21,3 +21,7 @@ elemento.getAttribute("id"); //Esto nos devolvera page
 // Continuamos utilizando el mismo codigo HTML modificando solo el JS
 
 const elementos = document.querySelector("page");
+
+elementos.setAttribute("data-number", "10"); //Esta funcion cambia data number a 10
+elementos.removeAttribute("id"); //Elimina el atributo id
+elementos.setAttribute("id", "page"); //Vuelve a añadir los atributos
