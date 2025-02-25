@@ -7,4 +7,6 @@ div{
     justify-content: center;
     font-size: larger;
     font-family:'Times New Roman', Times, serif;
+    margin: 100px 50px;
+    padding: 100px 50px;
 }
