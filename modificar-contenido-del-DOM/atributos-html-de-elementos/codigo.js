@@ -13,3 +13,6 @@ const elemento = document.querySelector("#page")
 elemento.hasAttribute(); //Esto nos devolvera true xq tiene 3 elementos
 elemento.hasAttribute("data-number"); //Esto es true xq data number si existe
 elemento.hasAttribute("disabled"); //Falso, xq disabled no existe.
+
+elemento.getAttributeNames(); //Esto nos va a devolver en un array los atributos o sea id, class y data number
+elemento.getAttribute("id"); //Esto nos devolvera page
