@@ -25,3 +25,13 @@ const elementos = document.querySelector("page");
 elementos.setAttribute("data-number", "10"); //Esta funcion cambia data number a 10
 elementos.removeAttribute("id"); //Elimina el atributo id
 elementos.setAttribute("id", "page"); //Vuelve a añadir los atributos
+
+
+
+//                          ACLARACION PARA LOS ATRIBUTOS BOOLEANOS
+
+const button = document.querySelector("button");
+
+button.setAttribute("disabled", true); //Aqui dara error
+button.disabled = true; //Aqui dara correcto
+button.setAttribute("disabled", ""); //Aqui dara correcto tambien
