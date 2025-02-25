@@ -11,6 +11,11 @@ button{
     border-color: white;
     color: white;
 }
+
+button:hover{
+    background: transparent;    
+}
+
 div{
     text-align: center;
     justify-content: center;
