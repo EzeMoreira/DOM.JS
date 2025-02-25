@@ -35,3 +35,9 @@ const button = document.querySelector("button");
 button.setAttribute("disabled", true); //Aqui dara error
 button.disabled = true; //Aqui dara correcto
 button.setAttribute("disabled", ""); //Aqui dara correcto tambien
+
+
+//                          TOGGLEATTRIBUTE
+
+button.toggleAttribute("disabled"); //Como ya existe disabled, lo elimina
+button.toggleAttribute("hidden"); //Como no existe "hidden" lo añade
