@@ -8,12 +8,12 @@ button{
     margin: 200px 100px;
     padding: 25px 15px;
     background-color: #1d2534;
-    border-color: lightseagreen;
     color: white;
 }
 
 button:hover{
-    background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQUjT0BWDoZInp8NuvDqdbS95ECixL6gvvKBA&s);    
+    background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQUjT0BWDoZInp8NuvDqdbS95ECixL6gvvKBA&s);
+    border-color: whitesmoke; 
 }
 
 div{
