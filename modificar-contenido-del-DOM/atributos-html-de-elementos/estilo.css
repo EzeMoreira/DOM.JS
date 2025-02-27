@@ -19,6 +19,10 @@ button{
     border: 5px solid white;
 }
 
+.box{
+    animation: anima 1s infinite alternate-reverse;
+}
+
 button:hover{
     background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQUjT0BWDoZInp8NuvDqdbS95ECixL6gvvKBA&s);
     border-color: whitesmoke;
@@ -28,4 +32,9 @@ button:hover{
 div{
     text-align: center;
     justify-content: center;
+}
+
+@keyframes anima {
+    0%{transform:rotateX(0);}
+    100%{transform:rotateX(90deg);}
 }
