@@ -20,7 +20,7 @@ button{
 }
 
 .box{
-    animation: anima 1s infinite alternate-reverse;
+    animation: anima 1s infinite alternate;
 }
 
 button:hover{
