@@ -86,4 +86,14 @@ div{
     grid-column: span 2 / span 2;
     grid-row: span 5 / span 5;
     grid-column-start: 4;
+    border-top: 2.5px dashed rgb(43, 43, 43);
+    border-left: 2.5px dashed rgb(43, 43, 43);
+    border-right: 5px solid whitesmoke;
+    border-bottom: 5px solid whitesmoke;
+}
+
+img{
+    height: 500px;
+    width: 95%;
+    padding: auto;
 }
