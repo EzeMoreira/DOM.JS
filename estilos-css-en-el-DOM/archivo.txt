@@ -5,3 +5,21 @@ La clase "dark-mode" podría tener los estilos de un elemento en una modo oscuro
 Este tipo de enfoque se denomina enfoque semántico y todo esto se puede escribir de forma directa y estatica.
 Sin embargo, cuando comenzamos a programar en Javascript buscamos una forma "dinámica", practica o mas comoda 
 de hacerlo, para poder automatizar esto y que sea mas sencillo de utilizar para el desarrollador.
+
+
+                                        LA PROPIEDAD .className
+
+
+Javascript tiene una propiedad .className en todos los elementos HTML. Con dicha propiedad se puede acceder al valor 
+del atributo HTML class como un string, para tanto obtenerlo como para cambiarlo o reemplazarlo.
+
+La propiedad .className viene a ser la modalidad directa, rápida y equivalente a utilizar:
+
+* El getter .getAttribute("class") que devolvería el valor del atributo HTML class.
+* El setter .setAttribute("class", value) que cambiaria el valor del atributo HTML class.
+
+A tener en cuenta, la propiedad se denomina className cuando estamos escribiendo código Javascript, mientras que se
+denomina class cuando escribimos código HTML, esto es porque la palabra class en Javascript ya esta reservada.
+
+Otro ejemplo de uso utilizando fragmento de código HTML que mostramos al comienzo. De esta forma vemos como 
+funciona la propiedad className. (Ejemplo en código).
