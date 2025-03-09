@@ -98,6 +98,19 @@ img{
     padding: auto;
 }
 
+mark{
+    background-color: whitesmoke;
+    border-radius: 10px;
+}
+
+mark:hover{
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:#1d2534;
+    color: whitesmoke;
+    border: none;
+}
+
 .icono{
     height: 250px;
     width: 80%;
