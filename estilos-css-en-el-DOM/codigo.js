@@ -36,3 +36,11 @@ element.checkVisibility();          //Da falso porque esta oculto por hidden
 element.removeAttribute("hidden");
 element.className = "hide";         //Le añadimos una clase que tiene display:none
 element.checkVisibility();          //false esta oculto por display:none
+
+
+const element = document.createElement("div"); //Creamos un div
+document.body.append(element);                 //Lo añadimos a body
+element.style.opacity = 0;                     //Lo ocultamos añadiendo CSS
+
+element.checkVisibility();                     //True, xq no comprueba opacity
+element.checkVisibility({ opacityProperty: true }); //false, xq comprueba opacity

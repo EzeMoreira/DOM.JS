@@ -39,3 +39,12 @@ Luego de ver el ejemplo, podemos ver que tiene comprobaciones adicionales para d
 * Es capaz de, comprobar si tiene una propiedad opacity a 0.
 * Es capaz de, comprobar si tiene una propiedad visibility a hidden.
 * Es capaz de, comprobar si esta desconectado del DOM o aun no fue añadido al DOM.
+
+
+Ademas, se puede añadir un objeto de opciones para determinar el método checkVisibility(), este objeto puede tener propiedades como:
+
+* contentVisibilityAuto, esto comprueba si content-visibility esta (o hereda) a auto, su valor por defecto es false.
+* opacityProperty, esto comprueba si opacity esta (o hereda) a 0 y esta oculta visualmente, su valor por defecto es false.
+* visibilityProperty, esto comprueba si visibility esta (o hereda) a hidden o collapse, este valor también por defecto es false.
+
+Ejemplo mostrado en código.
