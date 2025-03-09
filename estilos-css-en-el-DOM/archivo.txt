@@ -1,0 +1,7 @@
+La clase "element" sería la clase que representa el elemento, y que además tiene los estilos fijos.
+La clase "shine" (brillar o brillo) puede tener por ejemplo una animación css para aplicar un efecto de brillo.
+La clase "dark-mode" podría tener los estilos de un elemento en una modo oscuro.
+
+Este tipo de enfoque se denomina enfoque semántico y todo esto se puede escribir de forma directa y estatica.
+Sin embargo, cuando comenzamos a programar en Javascript buscamos una forma "dinámica", practica o mas comoda 
+de hacerlo, para poder automatizar esto y que sea mas sencillo de utilizar para el desarrollador.
