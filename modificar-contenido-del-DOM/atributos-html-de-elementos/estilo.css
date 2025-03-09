@@ -118,6 +118,13 @@ marquee{
     color: whitesmoke;
 }
 
+.parrafon2{
+    color: red;
+    text-shadow: 0.3em 0.3em 0.4em black;
+    font-size: medium;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 .icono{
     height: 250px;
     width: 80%;
