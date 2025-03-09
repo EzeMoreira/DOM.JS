@@ -23,3 +23,19 @@ denomina class cuando escribimos código HTML, esto es porque la palabra class e
 
 Otro ejemplo de uso utilizando fragmento de código HTML que mostramos al comienzo. De esta forma vemos como 
 funciona la propiedad className. (Ejemplo en código).
+
+
+                                        EL METODO checkVisibility()
+
+
+Con este método, podemos comprobar si un elemento en cuestión es visible al usuario en la pagina o no.
+
+(Primera parte del ejemplo mostrada en código)
+
+Luego de ver el ejemplo, podemos ver que tiene comprobaciones adicionales para detectar si esta siendo visible:
+
+* Es capaz de, comprobar si tiene asociado algún display a none.
+* Es capaz de, comprobar si se utiliza content-visibility o Hidden.
+* Es capaz de, comprobar si tiene una propiedad opacity a 0.
+* Es capaz de, comprobar si tiene una propiedad visibility a hidden.
+* Es capaz de, comprobar si esta desconectado del DOM o aun no fue añadido al DOM.
