@@ -111,6 +111,13 @@ mark:hover{
     border: none;
 }
 
+marquee{
+    text-transform: uppercase;
+    text-shadow: 0.3em 0.3em 0.4em #0c224b;
+    font-family: Arial, Helvetica, sans-serif;
+    color: whitesmoke;
+}
+
 .icono{
     height: 250px;
     width: 80%;
