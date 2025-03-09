@@ -97,3 +97,9 @@ img{
     width: 95%;
     padding: auto;
 }
+
+.icono{
+    height: 250px;
+    width: 80%;
+    padding: 10px;
+}
